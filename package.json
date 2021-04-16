@@ -5,6 +5,7 @@
     "icon": "icon.png",
     "version": "1.0.0",
     "publisher": "hammster1911",
+    "repository": "https://github.com/Hammster/bichromatic/tree/main",
     "engines": {
         "vscode": "^1.36.0"
     },
