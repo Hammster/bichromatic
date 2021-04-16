@@ -1,0 +1,28 @@
+{
+    "name": "bichromatic-theme",
+    "displayName": "Bichromatic",
+    "description": "Focus driven theme with no more then 2 colors and one background color",
+    "icon": "icon.png",
+    "version": "1.0.0",
+    "publisher": "hammster1911",
+    "engines": {
+        "vscode": "^1.36.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Bichromatic Dark",
+                "uiTheme": "vs-dark",
+                "path": "./themes/bichromatic-dark-color-theme.json"
+            },
+            {
+                "label": "Bichromatic Dimmed",
+                "uiTheme": "vs-dark",
+                "path": "./themes/bichromatic-dimmed-color-theme.json"
+            }
+        ]
+    }
+}
